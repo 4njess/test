@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    background-color: rgb(255, 202, 242);
+    overflow: hidden;
+
+}
+
+.CUBE {
+    border-radius: 15%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #914cff;
+background-color: rgb(0, 162, 255);
+width: 200px;
+height: 150px;
+box-shadow: 0px 30px 0px 0px rgba(0, 22, 123, 1),
+0px 30px 0px 0px rgba(0,22, 123, 0.5),
+0px 30px 0px 0px rgba(0,22, 123, 0.5),
+0px 30px 0px 0px rgba(0, 22, 123, 0.5),
+0px 30px 0px 0px rgba(0, 22, 123, 0.25),
+0px 30px 0px 0px rgba(0, 22, 123, 0.25);
+
+animation: CUBE 2s infinite;
+transition: background-color ease-in-out.20s, border-color ease-in-out.20s, box-shadow ease-in-out.20s;
+cursor: pointer;
+transform: rotate(0deg);
+
+}
+
+
+
+@keyframes CUBE {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+
+}
+
+
+
+
+
+
+ 
